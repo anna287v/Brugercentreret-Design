@@ -4,32 +4,38 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Hvad ser du frem til?</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="https://www.sikkertrafik.dk/kampagner">KAMPAGNER</a>
-            <a href="https://www.sikkertrafik.dk/raad-og-viden">RÅD OG VIDEN</a>
-            <a href="https://www.sikkertrafik.dk/boern-unge">BØRN OG UNGE</a>
-            <a href="https://www.sikkertrafik.dk/samarbejde">SAMARBEJDE</a>
-            <a href="https://video.sikkertrafik.dk/?_ga=2.111798532.1049394822.1570973402-632064700.1570973402&_gac=1.15352132.1570973404.CjwKCAjwlovtBRBrEiwAG3XJ-zF8hXCDn1wmcyld9U1I5rdj6AXi6SHYC5_H9WsugLf0DU0NCbgjuhoCc1QQAvD_BwE">VIDEO</a>
-            <a href="https://www.sikkertrafik.dk/presse">PRESSE</a>
-            <a href="https://www.sikkertrafik.dk/om-os">OM OS</a>
+            <div id="menuknap">☰</div>
+            <ul id="menu" class="hidden">
+                <li><a href="https://www.sikkertrafik.dk/kampagner">KAMPAGNER</a></li>
+                <li><a href="https://www.sikkertrafik.dk/raad-og-viden">RÅD OG VIDEN</a></li>
+                <li><a href="https://www.sikkertrafik.dk/boern-unge">BØRN OG UNGE</a></li>
+                <li><a href="https://www.sikkertrafik.dk/samarbejde">SAMARBEJDE</a></li>
+                <li><a href="https://video.sikkertrafik.dk/?_ga=2.111798532.1049394822.1570973402-632064700.1570973402&_gac=1.15352132.1570973404.CjwKCAjwlovtBRBrEiwAG3XJ-zF8hXCDn1wmcyld9U1I5rdj6AXi6SHYC5_H9WsugLf0DU0NCbgjuhoCc1QQAvD_BwE">VIDEO</a></li>
+                <li><a href="https://www.sikkertrafik.dk/presse">PRESSE</a></li>
+                <li><a href="https://www.sikkertrafik.dk/om-os">OM OS</a></li>
+            </ul>
         </nav>
     </header>
     <div class="undermenu">
-        <a href="index.html">Hvad ser du frem til?</a>
         <a href="https://www.sikkertrafik.dk/kampagner">Kampagner</a>
+        <a href="index.html">Hvad ser du frem til?</a>
     </div>
+
     <section id="splash">
         <img src="billeder/popina.png">
     </section>
+
     <div class="slide">
         <p>Hej med dig</p>
     </div>
+
     <section id="info">
         <div class="col1"></div>
     </section>
@@ -56,7 +62,7 @@
         <div class="col8"></div>
     </section>
 
-    <script src="script.js"></script>
-</body>
 
-</html>
+    <script src="script.js"></script>
+    <script src="burger.js"></script>
+</body></html>
