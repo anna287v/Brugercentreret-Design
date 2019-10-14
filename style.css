@@ -200,4 +200,20 @@ p {
     font-size: 16px;
 }
 
-#info3{}
+footer {
+    text-align: center;
+    background-color: #28292C;
+    display: flex;
+
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*Tekst i footer*/
+footer p {
+    padding-top: 0.5rem;
+    text-align: center;
+    width: 20rem;
+    color: #9EA1A5;
+
+}
