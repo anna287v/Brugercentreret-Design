@@ -7,17 +7,14 @@ body {
     padding: 0;
 }
 
-/*
-header {
-    margin: 0 auto;
-}
-*/
-
 /*Menu styling*/
 
 nav {
     background-color: #28292C;
-    height: 5vw;
+    height: 5.5vw;
+    position: fixed;
+    top: 0;
+    width: 100%;
 
 }
 
@@ -31,7 +28,6 @@ header nav a {
     color: #CCCCCC;
     font-size: 14px;
     padding: 27px 10px 21px;
-
 }
 
 
@@ -40,9 +36,7 @@ header nav li {
     /*Den ydre afstand fra boksens kant til den næste boks*/
     margin: 0 1rem;
     text-decoration: none;
-    margin-top: 30px;
-
-
+    margin-top: 40px;
 }
 
 header nav img {
@@ -51,7 +45,7 @@ header nav img {
     width: 200px;
 }
 
-ul {}
+
 
 /*Selve knappen*/
 nav li {
@@ -61,6 +55,7 @@ nav li {
     /*Fjerner kanten på knapperne*/
     border: 0;
     font-family: sans-serif;
+
 
 
 }
@@ -107,4 +102,52 @@ nav li {
 
 /*Splash*/
 
-#splash img {}
+#splash img {
+    width: 100%;
+    height: 500px;
+}
+
+/*info styling*/
+
+h1 {
+    font-family: 'Advent Pro', sans-serif;
+}
+
+h2 {
+    font-size: 42px;
+    font-family: sans-serif;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+p {
+    font-family: 'Advent Pro', sans-serif;
+}
+
+#info {
+    margin: 200px;
+    margin-top: 70px;
+}
+
+.col1 p {
+    font-size: 26px;
+    padding: 0px 200px 0px 0px;
+
+}
+
+#video {
+    background-color: #EAEAEA;
+
+
+}
+
+.col2 {
+    padding: 0px 15px;
+    margin: 0 210px;
+    padding: 60px 200px 60px 0px;
+}
+
+.video {
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+}
