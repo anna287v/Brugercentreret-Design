@@ -2,33 +2,69 @@ img {
     width: 100%;
 }
 
-/*Det besøgte link*/
-header nav li:visited {
-    color: #fcb268;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+header {
+    margin: 0 auto;
+}
+*/
+
+/*Menu styling*/
+
+nav {
+    background-color: #28292C;
+    height: 5vw;
+
 }
 
 /*Når man hover over links */
-header nav li:hover {
-    color: #fcb268;
+header nav a:hover {
+    color: white;
 }
+
+header nav a {
+    text-decoration: none;
+    color: #CCCCCC;
+    font-size: 14px;
+    padding: 27px 10px 21px;
+
+}
+
 
 /*Boksen rundt om knapperne*/
 header nav li {
     /*Den ydre afstand fra boksens kant til den næste boks*/
     margin: 0 1rem;
+    text-decoration: none;
+    margin-top: 30px;
+
+
 }
+
+header nav img {
+    margin-top: -45px;
+    margin-left: 5px;
+    width: 200px;
+}
+
+ul {}
 
 /*Selve knappen*/
 nav li {
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     /*Den indre afstand i boksen*/
     padding: 0;
     /*Fjerner kanten på knapperne*/
     border: 0;
-    font-family: 'Oswald', sans-serif;
-    background-color: white;
+    font-family: sans-serif;
+
 
 }
+
 
 /*BURGER*/
 .hidden {
@@ -44,8 +80,8 @@ nav li {
     list-style-type: none;
     transition: transform .3s;
     transform-origin: top left;
-    font-family: cursive;
     text-align: center;
+
 }
 
 
@@ -58,6 +94,8 @@ nav li {
     #menu.hidden {
         transform: translateX(0);
         opacity: 1;
+        padding: 0;
+        margin: 0;
     }
 
     #menu li {
@@ -66,3 +104,7 @@ nav li {
 }
 
 /*BURGER SLUT HER*/
+
+/*Splash*/
+
+#splash img {}
