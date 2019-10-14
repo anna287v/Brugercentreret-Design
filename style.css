@@ -10,11 +10,11 @@ body {
 /*Menu styling*/
 nav {
     display: block;
-    height: 5.5vw;
+    background-color: #28292C;
+    height: 80px;
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #28292C;
     padding: 0px 200px 0px 200px;
 }
 
@@ -23,7 +23,6 @@ nav {
     left: 200px;
     width: 200px;
     top: 1vw;
-
 }
 
 /*Når man hover over links */
@@ -35,10 +34,7 @@ header nav a {
     text-decoration: none;
     color: #CCCCCC;
     font-size: 14px;
-
-
-
-
+    font-family: 'Exo', sans-serif;
 }
 
 
@@ -49,19 +45,12 @@ header nav li {
     text-decoration: none;
     margin-top: 40px;
     margin-right: -7px;
-
-
-
-
 }
 
 header nav ul {
     margin-left: 50px;
 
 }
-
-
-
 
 
 /*Selve knappen*/
@@ -73,22 +62,26 @@ nav li {
 }
 
 /*BURGER*/
-
 .hidden {
     transform: translateX(-100%);
     opacity: 0;
 }
 
 #menuknap {
+    position: absolute;
     display: inline-block;
+     top: .75em;
+   left: 0.5rem;
+    color: white;
+    font-size: 1.5rem;
 }
 
 #menu {
     list-style-type: none;
     transition: transform .3s;
     transform-origin: top left;
+    font-family: cursive;
     text-align: center;
-
 }
 
 
@@ -101,30 +94,25 @@ nav li {
     #menu.hidden {
         transform: translateX(0);
         opacity: 1;
-        padding: 0;
-        margin: 0;
-
     }
 
     #menu li {
         display: inline-block;
-        text-align: right;
     }
 }
 
-/*BURGER SLUT HER*/
+/*BURGER SLUT*/
 
-/*Splash*/
-
+/*SPLASH*/
 #splash img {
     width: 100%;
     height: 500px;
 }
 
-/*Info styling*/
+/*INFO STYLING*/
 h1 {
-    font-family: 'Advent Pro', sans-serif;
-    font-size: 65px;
+    font-family: 'Exo', sans-serif;
+    font-size: 10vw;
     color: white;
 
 }
@@ -132,11 +120,11 @@ h1 {
 h2 {
     font-size: 42px;
     font-family: sans-serif;
-    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 
 p {
-    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 
 #info {
@@ -204,7 +192,6 @@ footer {
     text-align: center;
     background-color: #28292C;
     display: flex;
-
     align-items: center;
     flex-wrap: wrap;
 }
