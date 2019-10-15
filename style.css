@@ -1,5 +1,5 @@
 /*OVERORDNET*/
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -26,7 +26,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-/*    padding: 0px 200px 0px 200px;*/
+    /*    padding: 0px 200px 0px 200px;*/
 }
 
 #logo {
@@ -125,14 +125,14 @@ h1 {
 }
 
 h2 {
-    font-size: 3vw;
+    font-size: 30px;
     font-family: sans-serif;
     font-family: 'Exo', sans-serif;
 }
 
 p {
     font-family: 'Exo', sans-serif;
-    font-size: 1.6vw;
+    font-size: 16px;
 }
 
 /*INFO STYLING*/
@@ -140,7 +140,7 @@ p {
 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
-/*    flex-direction: row;*/
+    /*    flex-direction: row;*/
     margin: 0% 15% 0% 15%;
 }
 
@@ -163,7 +163,10 @@ p {
 
 }
 
-.col1, .col2, .col3, col4{
+.col1,
+.col2,
+.col3,
+col4 {
     margin: 5% 0% 5% 0%;
 }
 
@@ -172,6 +175,14 @@ p {
     flex-grow: 1;
     display: block;
     margin: 5% 0% 5% 0%;
+}
+
+.col5 {
+    flex-basis: 300px;
+    flex-grow: 1;
+    display: block;
+    margin: 10% 0% 5% 5%;
+
 }
 
 /*FOOTER*/
