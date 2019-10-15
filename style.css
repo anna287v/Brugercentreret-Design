@@ -1,3 +1,8 @@
+/*OVERORDNET*/
+*{
+    box-sizing: border-box;
+}
+
 img {
     width: 100%;
 }
@@ -7,7 +12,13 @@ body {
     padding: 0;
 }
 
-/*Menu styling*/
+/*SPLASH*/
+#splash img {
+    width: 100%;
+    height: 500px;
+}
+
+/*MENU*/
 nav {
     display: block;
     background-color: #28292C;
@@ -15,7 +26,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 0px 200px 0px 200px;
+/*    padding: 0px 200px 0px 200px;*/
 }
 
 #logo {
@@ -43,7 +54,7 @@ header nav li {
     /*Den ydre afstand fra boksens kant til den næste boks*/
     margin: 0 1rem;
     text-decoration: none;
-    margin-top: 40px;
+    margin-top: 25px;
     margin-right: -7px;
 }
 
@@ -52,7 +63,6 @@ header nav ul {
 
 }
 
-
 /*Selve knappen*/
 nav li {
     font-size: 0.8rem;
@@ -60,6 +70,8 @@ nav li {
     border: 0;
     font-family: sans-serif;
 }
+
+/*MENU SLUT*/
 
 /*BURGER*/
 .hidden {
@@ -70,8 +82,8 @@ nav li {
 #menuknap {
     position: absolute;
     display: inline-block;
-     top: .75em;
-   left: 0.5rem;
+    top: .75em;
+    left: 0.5rem;
     color: white;
     font-size: 1.5rem;
 }
@@ -103,54 +115,42 @@ nav li {
 
 /*BURGER SLUT*/
 
-/*SPLASH*/
-#splash img {
-    width: 100%;
-    height: 500px;
-}
+/*TEKST STYLING*/
 
-/*INFO STYLING*/
 h1 {
     font-family: 'Exo', sans-serif;
-    font-size: 10vw;
+    font-size: 3vw;
     color: white;
 
 }
 
 h2 {
-    font-size: 42px;
+    font-size: 3vw;
     font-family: sans-serif;
     font-family: 'Exo', sans-serif;
 }
 
 p {
     font-family: 'Exo', sans-serif;
+    font-size: 1.6vw;
 }
 
-#info {
-    margin: 200px;
-    margin-top: 70px;
-}
+/*INFO STYLING*/
 
-.col1 p {
-    font-size: 26px;
-    padding: 0px 200px 0px 0px;
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+/*    flex-direction: row;*/
+    margin: 0% 15% 0% 15%;
 }
 
 #video {
     background-color: #EAEAEA;
-    padding: 80px 0px 80px;
-}
-
-.col2 {
-    margin: 0 200px;
-
 }
 
 .video {
-    width: 1000px;
-    height: 550px;
-    margin: 60px 200px 60px 200px;
+    width: 80vw;
+    height: 45vw;
 
 }
 
@@ -158,35 +158,23 @@ p {
     background-color: #414B5A;
 }
 
-.col3 {
-    margin: -10px 200px -10px 200px;
-    padding: 40px 0px 48px;
-
-}
-
 #generelt {
     background-color: #EAEAEA;
-    margin: 0 auto;
+
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding: 80px 0px 80px;
+.col1, .col2, .col3, col4{
+    margin: 5% 0% 5% 0%;
 }
 
 .col4 {
     flex-basis: 300px;
     flex-grow: 1;
     display: block;
-    /*    margin: 0px 200px 0px 200px;*/
-
+    margin: 5% 0% 5% 0%;
 }
 
-.col4 p {
-    font-size: 16px;
-}
+/*FOOTER*/
 
 footer {
     text-align: center;
@@ -198,9 +186,11 @@ footer {
 
 /*Tekst i footer*/
 footer p {
-    padding-top: 0.5rem;
+    /*    padding-top: 0.5rem;*/
     text-align: center;
     width: 20rem;
     color: #9EA1A5;
 
 }
+
+/*FOOTER SLUT*/
