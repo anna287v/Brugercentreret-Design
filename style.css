@@ -222,6 +222,7 @@ footer {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 /*Tekst i footer*/
@@ -234,3 +235,27 @@ footer p {
 }
 
 /*FOOTER SLUT*/
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 400px) {
+    #splash img {
+        background-position: 50% 0%;
+    }
+
+}
+
+@media only screen and (min-width: 401px) {
+    #splash img {
+        background-position: 50% 0%;
+    }
+
+}
+
+@media only screen and (min-width: 608px) {
+    #splash img {
+        background-position: 50% 0%;
+    }
+
+
+}
